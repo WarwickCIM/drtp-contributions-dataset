@@ -1,0 +1,12 @@
+- Package: dplyr
+  Repository: CRAN
+  Version: 1.2.1
+- Package: janitor
+  Repository: CRAN
+  Version: 2.2.1
+- Package: stringr
+  Repository: CRAN
+  Version: 1.6.0
+- Package: tidyr
+  Repository: CRAN
+  Version: 1.3.2
