@@ -1,18 +1,18 @@
 # Mapping Digital Research Competencies Pedagogies Survey Dataset
 
-Anonymised datasets and data components derived from Mapping Digital Research Competencies Pedagogies Survey, ran between May 2026. The survey was aimed to inform cyber policy discussions by generating new insights into the value and distribution of cyber expertise, and received 56 responses and information about 65 different scenarios.
+Anonymised datasets and data components derived from Mapping Digital Research Competencies Pedagogies Survey, ran between May 2026 and XXX (see details below)
 
 The included components are:
 
-1.  **Anonymised Dataset** with the survey responses. The dataset is a `csv` file containing XX observations and YY variables.
-2.  **Trainings dataset** with information about different training courses. The dataset is a `csv`file containing 65 observations and 39 variables.
+1.  **Respondents dataset** with survey responses describing the respondents. The dataset is a `csv` file containing XX observations and YY variables.
+2.  **Trainings dataset** with information about different training courses and role played by the drtp. The dataset is a `csv`file containing 65 observations and 39 variables.
 3.  **Dataset Metadata**, stored in human-readable format in this website, and machine-readable format stored in `data/metadata/dataspice.json`
 4.  **Scripts** used to generate the resulting dataset after cleaning and anonymising the raw data from qualtrics (not included).
 5.  **PDF copy of the original survey**.
 
 You are free to reuse this dataset under the Licence conditions. If you use this dataset in your work, please cite it as below:
 
-> Cámara-Menoyo, C., Spencer, M., & Monteath, T. (2025). **Mapping Digital Research Competencies Pedagogies Survey Dataset** [Dataset]. <https://github.com/WarwickCIM/drtp-contributions-dataset>. [https://doi.org/](https://doi.org/10.17605/OSF.IO/GX7ME){.uri}xxxxxx
+> Cámara-Menoyo, C., & Monteath, T. (2025). **Mapping Digital Research Competencies Pedagogies Survey Dataset** [Dataset]. <https://github.com/WarwickCIM/drtp-contributions-dataset>. [https://doi.org/](https://doi.org/10.17605/OSF.IO/GX7ME){.uri}xxxxxx
 
 For your convenience, we have also included a `CITATION.bib` file you may want to use to import it to your Reference Manager.
 
@@ -21,6 +21,15 @@ For your convenience, we have also included a `CITATION.bib` file you may want t
 
 }
 ```
+
+## About the survey
+
+The survey was aimed to to better understand the role played by people, methodologies and infrastructure in the provision of digital research competencies (DRP) across higher‑education institutions. The findings will offer evidence‑based recommendations for policymakers, dRTPs and educators to enhance DRP curricula across HE, guiding when and how to involve specialist trainers and applying appropriate pedagogical approaches and tools for different contexts.
+
+### Audience
+
+The survey is for people, based in the UK, who self-identify as a digital Research Technical Professional in HE. We use "dRTP" as an inclusive and open term to refer to the wide range of professionals
+whose work supports, enables, or advances research through digital tools, data, infrastructure, or technical expertise. For more information, refer to <https://discourse-network.github.io/who>
 
 ## Acknowledgements
 
