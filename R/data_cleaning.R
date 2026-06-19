@@ -16,9 +16,10 @@ library(tidyr)
 
 filename_responses <- "raw_dataset.csv"
 
-df_responses <- read.csv(paste0("data/raw/", filename_responses),
-                         skip = 1, na.strings = c("", " ")
-) |>
+df_responses <- read.csv(
+  paste0("data/raw/", filename_responses),
+  skip = 1, na.strings = c("", " ")
+  ) |>
   as_tibble() |>
   # Cleaning up messy column names (whitespaces, capitalisation...).
   janitor::clean_names() |>
@@ -50,7 +51,7 @@ df_responses <- read.csv(paste0("data/raw/", filename_responses),
 # Write a clean file without information about respondents.
 df_respondents <- df_responses |>
   # Remove unnecessary columns
-  select(-duration_in_seconds, -user_language, -starts_with("training_"))
+  select(-duration_in_seconds, -starts_with("training_"))
 
 write.csv(
   df_respondents,
@@ -74,6 +75,8 @@ df_trainings <- df_responses |>
   # Cleanup future column names so responses from different training have same
   # column names when transforming them to wide format.
   mutate(
+    # Create a training index to avoid duplicates.
+    training_index = str_extract(name, "(?<=training_)\\d+"),
     # Remove the training prefix.
     name = str_remove_all(name, "training_\\d"),
     # Remove any leading _ that may result from the previous.
@@ -84,7 +87,7 @@ df_trainings <- df_responses |>
     name = str_remove(name, "(?<=__).*?(?=selected_choice)"),
   ) |> 
   pivot_wider(
-    id_cols = response_id, 
+    id_cols = c(response_id, training_index),
     names_from = name, 
     values_from = value
   ) |> 
@@ -98,3 +101,4 @@ write.csv(
   file = "data/drtp_contribs_survey_trainings.csv",
   row.names = FALSE
 )
+
