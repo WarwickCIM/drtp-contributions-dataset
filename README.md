@@ -1,7 +1,9 @@
 <!--badges start -->
+
 [![DOI](https://zenodo.org/badge/1259414154.svg)](https://doi.org/10.5281/zenodo.22934513)
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+
 <!--badges end -->
 
 # Mapping Digital Research Competencies Pedagogies Survey Dataset
@@ -16,17 +18,24 @@ This repository contains the following components:
 2.  **Trainings dataset** with information about different training courses and role played by the drtp. The dataset is a `csv`file containing 65 observations and 39 variables.
 3.  **Dataset Metadata**, stored in human-readable format in this website, and machine-readable format stored in `data/metadata/dataspice.json` (NOT IMPLEMENTED YET)
 4.  **Scripts** used to generate the resulting dataset after cleaning and anonymising the raw data from qualtrics (not included), to allow scrutiny.
-5.  **PDF copy of the original survey**.
+5.  **PDF copy of the original survey**. [`drtp-contributions-survey.pdf`](https://github.com/WarwickCIM/drtp-contributions-dataset/blob/main/drtp-contributions-survey.pdf "drtp-contributions-survey.pdf")
 
 You are free to reuse this dataset under the Licence conditions. If you use this dataset in your work, please cite it as below:
 
-> Cámara-Menoyo, C., & Monteath, T. (2025). **Mapping Digital Research Competencies Pedagogies Survey Dataset** [Dataset]. <https://github.com/WarwickCIM/drtp-contributions-dataset>. [https://doi.org/](https://doi.org/10.17605/OSF.IO/GX7ME){.uri}xxxxxx
+> Cámara-Menoyo, C., & Monteath, T. (2026). *Mapping Digital Research Competencies Pedagogies Survey Dataset* [Data set]. <https://github.com/WarwickCIM/drtp-contributions-dataset.> <https://doi.org/10.5281/zenodo.22934513>
 
 For your convenience, we have also included a `CITATION.bib` file you may want to use to import it to your Reference Manager.
 
 ``` bibtex
 @dataset{
-
+  title = {Mapping {{Digital Research Competencies Pedagogies Survey Dataset}}},
+  author = {{C{\'a}mara-Menoyo}, Carlos and Monteath, Timothy},
+  year = 2026,
+  month = sep,
+  publisher = {https://github.com/WarwickCIM/drtp-contributions-dataset},
+  doi = {10.5281/zenodo.22934513},
+  copyright = {Apache-2.0 license},
+  langid = {english}
 }
 ```
 
