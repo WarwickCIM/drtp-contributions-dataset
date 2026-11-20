@@ -8,7 +8,7 @@
 
 # Mapping Digital Research Competencies Pedagogies Survey Dataset
 
-Anonymised datasets and data components derived from Mapping Digital Research Competencies Pedagogies Survey, ran between May 2026 and XXX (see details below).
+Anonymised datasets and data components derived from Mapping Digital Research Competencies Pedagogies Survey, ran between May 2026 and October 2026 (see details below).
 
 This is an output of the research project "[Mapping and evaluating dRTP’s contributions to computing skills pedagogies in HE](https://warwick.ac.uk/fac/cross_fac/cim/research/projects/mapping-drtp-contributions/)" led by Dr. Carlos Cámara-Menoyo and Dr. Timothy Monteath, from the Centre for Interdisciplinary Methodologies at the University of Warwick, and aimed at mapping and analysing the provision of digital research competencies (DRP) across higher education institutions, producing a publicly accessible repository to inform decision-making around teaching and curriculum design in a rapidly evolving landscape shaped by AI adoption.
 
